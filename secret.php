@@ -65,8 +65,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         </div>
         <div class="mb-3">
             <label for="keyDecryption" class="form-label text-light">Bitte geben Sie Ihren
-                Entschlüsselungsschlüssel(Key)
-                ein:</label>
+                Entschlüsselungsschlüssel(Key) ein:</label>
             <input type="password" class="form-control" id="keyDecryption" name="keyDecryption">
         </div>
         <button type="submit" class="btn btn-primary">Entschlüsseln</button>
@@ -75,7 +74,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <hr>
 
     <h3 class="text">Ergebnis:</h3>
-    <p class="text"><?= htmlspecialchars($result) ?></p>
+    <textarea class="form-control" rows="3"><?= htmlspecialchars($result) ?></textarea>
+
     <br>
     <hr>
 
