@@ -2,11 +2,12 @@
 
 <div class="container mt-4">
   <h1>Willkommen auf meiner persönlichen Website!</h1>
-  <p>Kurs: Web Programmierung von Ali Khorsandfard</p>
-  <p>Informatiker Sommer 2024</p>
-  <p>Name: Andreas Dick</p>
-  <p>Ort: DAA Minden</p>
-
+  
+  <p>Kurs:    Web Programmierung von Ali Khorsandfard</p>
+  <p>Fachinformatiker für Systemintegration</p>
+  <p>Name:    Andreas Dick</p>
+  <p>Ort:     DAA Minden</p>
+  
   <h2 class="mt-4">Kontaktieren Sie mich</h2>
   <form>
     <div class="mb-3">
