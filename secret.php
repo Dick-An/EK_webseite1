@@ -1,7 +1,7 @@
 <?php
 require_once "./assets/layout/header.php";
-require_once "./assets/crypto/app/HelloWorld.php";
-require_once "./assets/crypto/app/Enigma.php";
+require_once "./assets/crypto/HelloWorld.php";
+require_once "./assets/crypto/Enigma.php";
 
 $enigmaInstance = new Enigma();
 $result = "";
